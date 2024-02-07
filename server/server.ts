@@ -1,4 +1,4 @@
-import { Application } from './Application.js';
+import { Application } from './lib/app/Application.js';
 
 const port = 3005;
 const app = new Application();
