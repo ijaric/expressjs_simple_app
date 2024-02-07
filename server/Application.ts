@@ -1,9 +1,9 @@
 import express, { Express } from 'express';
 import { Server } from 'http';
-import { createUserRoutes } from './routes/userRoutes.js';
-import { UserRepository } from './repository/UserRepository.js';
-import { UserService } from './service/UserService.js';
-import { UserHandler } from './handler/UserHandler.js';
+import { createUserRoutes } from './lib/user/userRoutes.js';
+import { UserRepository } from './lib/user/UserRepository.js';
+import { UserService } from './lib/user/UserService.js';
+import { UserHandler } from './lib/user/UserHandler.js';
 
 export class Application {
   public express: Express;
