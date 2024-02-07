@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { UserHandler } from '../handler/UserHandler.js';
+import { UserHandler } from './UserHandler.js';
 
 export function createUserRoutes(userHandler: UserHandler): Router {
   const router = Router();

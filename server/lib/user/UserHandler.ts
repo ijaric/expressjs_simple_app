@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { UserService } from '../service/UserService.js';
+import { UserService } from './UserService.js';
 
 export class UserHandler {
   private userService: UserService;
